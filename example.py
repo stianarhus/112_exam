@@ -1,10 +1,9 @@
 import pandas as pd
-from sklearn.model_selection import train_test_split
+#from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
 import numpy as np
 
 
-https://github.com/stianarhus/284_exam
+df = pd.read_csv('nyc-rolling-sales.csv')
 
-
-https://github.com/git-guides/install-git
+df.dtypes
